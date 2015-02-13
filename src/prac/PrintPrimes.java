@@ -12,15 +12,15 @@ public class PrintPrimes {
 		for(i=2;i<=limit;i++){
 			flag = 0;
 			for(j=2;j<=(i/2);j++){
-				if(i!=j && (i%j)==0){
-					flag = 0;
+				if(i!=j && i%j==0){
+					flag = 1;
 					break;
 				}
 				else{
-					flag = 1 ;
+					flag = 0 ;
 				}
 			}
-			if(flag == 1){
+			if(flag == 0){
 				System.out.println(i);
 			}
 		}
