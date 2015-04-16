@@ -11,13 +11,10 @@ public class PrintPrimes {
 		System.out.println("Prime nos from 1 to N are : ");
 		for(i=2;i<=limit;i++){
 			flag = 0;
-			for(j=2;j<=(i/2);j++){
+			for(j=2;j<=Math.sqrt(i);j++){
 				if(i!=j && i%j==0){
 					flag = 1;
 					break;
-				}
-				else{
-					flag = 0 ;
 				}
 			}
 			if(flag == 0){
