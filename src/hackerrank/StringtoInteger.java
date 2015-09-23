@@ -1,4 +1,4 @@
-package prac;
+package hackerrank;
 
 public class StringtoInteger {
 
