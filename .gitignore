@@ -1,1 +1,5 @@
+#untracked files
 /bin/
+.project
+.classpath
+.settings
