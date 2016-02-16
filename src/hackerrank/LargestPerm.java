@@ -33,6 +33,7 @@ public class LargestPerm {
         
         for(int i=0; i<n; i++)
             System.out.print(arr[i]+" ");
+        scc.close();
 	}
 
 }

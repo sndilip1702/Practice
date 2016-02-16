@@ -1,7 +1,9 @@
 package misc;
 
 public class BST {
-
+	
+	private BSTNode root;
+	
 	private class BSTNode {
 		private int data;
 		private BSTNode left,right;
@@ -33,7 +35,7 @@ public class BST {
 		}
 	}
 	
-	private BSTNode root;
+	
 
 	public BSTNode getRoot() {
 		return root;
