@@ -29,7 +29,7 @@ public class SmallestInWindow {
 		K = in.nextInt();
 		
 		for ( i = 0; i < inputArray.length; i++) {
-				
+
 		}
 		System.out.println(resultArray);
 		
